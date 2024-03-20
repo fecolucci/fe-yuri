@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 16px; /* Definindo um tamanho de fonte padrão */
+}
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
@@ -25,13 +29,18 @@ body {
     background-color: var(--cor-secundaria);
     padding: 1%;
     display: flex;
-    gap: 5%;
+    gap: 120px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .cabecalho__menu__link {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.56rem;
     text-decoration: none;
     color: var(--cor-primaria);
 }
@@ -40,26 +49,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5% 25%;
+    padding: 100px 25% 100px 25%;
     box-sizing: border-box;
 }
 
 .declaracao__texto{
-    width: 635px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    box-sizing: border-box;
 }
 
 .declaracao__texto__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 60px;
+    font-size: 3.75rem;
     color: var(--cor-secundaria);
 }
 
 .declaracao__texto__paragrafo {
     font-family: var(--fonte-primaria);
-    font-size: 0.9vw;
+    font-size: 1.5rem;
+
 }
 
 .foto__principal {
@@ -67,19 +77,22 @@ body {
     height: auto;
     border-radius: 50px;
     border: solid 7px var(--cor-secundaria);
+    margin: 50px;
+
 }
 
 .rodape {
     background-color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
     color: var(--cor-primaria);
-    font-size: 25px;
+    font-size: 1.56rem;
     padding: 1%;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    margin-top: 20px;
 }
 
 /*PAGINA DE FOTOS*/
@@ -92,7 +105,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0% 2% 2% 2%;
+    margin: 0% 2% 100px 2%;
 }
 
 .fotos__secao__imagens {
@@ -106,10 +119,10 @@ body {
 
 .fotos__titulo, .comentarios__container__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 60px;
+    font-size: 3.75rem;
     color: var(--cor-secundaria);
     text-align: center;
-    padding: 50px 0;
+    padding: 120px 0px 35px 0px;
 }
 
 /*PAGINA DE PLANOS*/
@@ -127,10 +140,10 @@ body {
 
 .comentarios__container__titulo2 {
     font-family: var(--fonte-primaria);
-    font-size: 30px;
+    font-size: 1.9rem;
     color: var(--cor-secundaria);
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 #comentarios__container__texto {
@@ -139,23 +152,23 @@ body {
     border-radius: 30px;
     border: solid 5px var(--cor-secundaria);
     font-family: var(--fonte-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 2%;
 } 
 
 .botao {
     text-align: center;
-    margin-top: 3%;
 }
 
 .botao__enviar {
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
     padding: 13px;
     border-color: var(--cor-primaria);
     border-radius: 15px;
+    margin-top: 50px;
 }
 
 .botao__enviar:focus, .botao__enviar:hover {
@@ -164,11 +177,11 @@ body {
 
 .amo-voce__paragrafo {
     font-family: var(--fonte-primaria);
-    font-size: 60px;
+    font-size: 3.75rem;
     color: var(--cor-secundaria);
     text-align: center;
     align-items: center;
-    padding: 5%;
+    padding: 5% 0% 13% 0%;
 }
 
 .destaque {
