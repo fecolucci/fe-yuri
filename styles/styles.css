@@ -64,6 +64,7 @@ body {
     font-family: var(--fonte-primaria);
     font-size: 3.75rem;
     color: var(--cor-secundaria);
+    margin-top: 1.5rem;
 }
 
 .declaracao__texto__paragrafo {
