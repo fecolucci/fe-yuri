@@ -59,7 +59,7 @@ body {
 
 .declaracao__texto__paragrafo {
     font-family: var(--fonte-primaria);
-    font-size: 25px;
+    font-size: 0.9vw;
 }
 
 .foto__principal {
